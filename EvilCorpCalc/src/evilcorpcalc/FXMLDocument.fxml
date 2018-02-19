@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="250.0" prefWidth="200.0" scaleShape="false" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evilcorpcalc.FXMLDocumentController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="503.0" scaleShape="false" VBox.vgrow="ALWAYS">
+      <children>
+            <Label fx:id="lblOutputUp" contentDisplay="RIGHT" layoutX="10.0" layoutY="15.0" prefHeight="20.0" prefWidth="180.0" />
+            <Label fx:id="lblOutput" contentDisplay="RIGHT" layoutX="10.0" layoutY="40.0" prefHeight="40.0" prefWidth="180.0" />
+            <Button fx:id="btn1" layoutX="25.0" layoutY="166.0" mnemonicParsing="false" onAction="#getBtn1" prefHeight="30.0" prefWidth="30.0" text="1" />
+            <Button fx:id="btn2" layoutX="105.0" layoutY="166.0" mnemonicParsing="false" onAction="#getBtn3" prefHeight="30.0" prefWidth="30.0" text="3" />
+            <Button fx:id="btn3" layoutX="65.0" layoutY="166.0" mnemonicParsing="false" onAction="#getBtn2" prefHeight="30.0" prefWidth="30.0" text="2" />
+            <Button fx:id="btn4" layoutX="25.0" layoutY="126.0" mnemonicParsing="false" onAction="#getBtn4" prefHeight="30.0" prefWidth="30.0" text="4" />
+            <Button fx:id="btn5" layoutX="65.0" layoutY="126.0" mnemonicParsing="false" onAction="#getBtn5" prefHeight="30.0" prefWidth="30.0" text="5" />
+            <Button fx:id="btn6" layoutX="105.0" layoutY="126.0" mnemonicParsing="false" onAction="#getBtn6" prefHeight="30.0" prefWidth="30.0" text="6" />
+            <Button fx:id="btn7" layoutX="25.0" layoutY="86.0" mnemonicParsing="false" onAction="#getBtn7" prefHeight="30.0" prefWidth="30.0" text="7" />
+            <Button fx:id="btn8" layoutX="65.0" layoutY="86.0" mnemonicParsing="false" onAction="#getBtn8" prefHeight="30.0" prefWidth="30.0" text="8" />
+            <Button fx:id="btn9" layoutX="105.0" layoutY="86.0" mnemonicParsing="false" onAction="#getBtn9" prefHeight="30.0" prefWidth="30.0" text="9" />
+            <Button fx:id="btn0" layoutX="25.0" layoutY="206.0" mnemonicParsing="false" onAction="#getBtn0" prefHeight="30.0" prefWidth="30.0" text="0" />
+            <Button fx:id="btnAdd" layoutX="145.0" layoutY="166.0" mnemonicParsing="false" onAction="#getBtnAdd" prefHeight="30.0" prefWidth="30.0" text="+" />
+            <Button fx:id="btnSub" layoutX="145.0" layoutY="206.0" mnemonicParsing="false" onAction="#getBtnSub" prefHeight="30.0" prefWidth="30.0" text="-" />
+            <Button fx:id="btnMul" layoutX="145.0" layoutY="86.0" mnemonicParsing="false" onAction="#getBtnMul" prefHeight="30.0" prefWidth="30.0" text="*" />
+            <Button fx:id="btnDiv" layoutX="145.0" layoutY="126.0" mnemonicParsing="false" onAction="#getBtnDiv" prefHeight="30.0" prefWidth="30.0" text="/" />
+            <Button fx:id="btnSum" layoutX="65.0" layoutY="206.0" mnemonicParsing="false" onAction="#getBtnSum" prefHeight="30.0" prefWidth="30.0" text="=" />
+            <Button fx:id="btnClr" layoutX="107.0" layoutY="205.0" mnemonicParsing="false" onAction="#getBtnClr" prefHeight="30.0" prefWidth="30.0" text="C" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
