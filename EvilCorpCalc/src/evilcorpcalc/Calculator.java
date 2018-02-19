@@ -16,34 +16,27 @@
  */
 package evilcorpcalc;
 
-import javafx.application.Application;
-import static javafx.application.Application.launch;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-
 /**
  *
  * @author Karol
  */
-public class EvilCorpCalc extends Application {
+public class Calculator {
     
-    @Override
-    public void start(Stage stage) throws Exception {
-        //load xml gui
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
-        Scene scene = new Scene(root);
-        
-        stage.setScene(scene);
-        stage.show();
-        stage.setResizable(false);
+    public int addition(int first, int second){
+        return first+second;
     }
-
-
-    public static void main(String[] args) {
-        launch(args);
+    public int substraction(int first, int second){
+        return first-second;
     }
     
+    public int multiplication(int first, int second){
+        if (first == 0 || second == 0)
+            return 0;
+        return first*second;
+    }
+    public int division(int first, int second){
+        if (first == 0 || second == 0)
+            return 0;
+        return first/second;
+    }
 }
